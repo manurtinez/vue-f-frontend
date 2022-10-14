@@ -1,0 +1,62 @@
+{
+  "name": "foxtrot-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "lint": "vue-cli-service lint",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "start": "nuxt start",
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.3",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.10.3",
+    "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.20.0",
+    "portal-vue": "^2.1.7",
+    "vue": "^2.6.12",
+    "vuetify": "^2.3.21",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.1.0",
+    "axios-mock-adapter": "^1.19.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.5.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "jest": "^26.5.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^2.1.2",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
+    "vue-i18n": "^8.22.4",
+    "vue-jest": "^3.0.4"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "jest --findRelatedTests",
+      "git add"
+    ]
+  }
+}

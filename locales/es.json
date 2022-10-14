@@ -1,0 +1,176 @@
+{
+  "rootPageTitles": {
+    "/": "Inicio",
+    "/paymentlink/list": "Cobrar",
+    "/profile": "Perfil"
+  },
+  "header": {
+    "backBtn": "Volver"
+  },
+  "defaultLayout": {
+    "sideMenuItems": {
+      "root": "Inicio",
+      "cashout": "Retirar",
+      "charge": "Cobrar",
+      "movements": "Actividad",
+      "profile": "Perfil",
+      "logout": "Salir"
+    }
+  },
+  "sideMenuItems": {
+    "root": "Inicio",
+    "cashout": "Retirar",
+    "charge": "Cobrar",
+    "activity": "Actividad"
+  },
+  "linkStatus": {
+    "expired": "Vencido",
+    "paid": "Pagado",
+    "canceled": "Cancelado"
+  },
+  "paymentLinkList": {
+    "title": "TUS LINKS DE PAGO",
+    "createButton": "CREAR LINK DE PAGO",
+    "idFilterPlaceholder": "Buscar por #ID",
+    "filterItems": {
+      "all": "Todos",
+      "expired": "Vencidos",
+      "canceled": "Cancelados",
+      "paid": "Pagados",
+      "active": "No Pagados"
+    },
+    "table": {
+      "noResults": "No se encontraron links de pago"
+    }
+  },
+  "paymentLinkCreate": {
+    "title": "Crear link de pago",
+    "createdErrorMsg": "Hubo algún error creando el link. Por favor, intentá de nuevo",
+    "card": {
+      "productTitle": "Título de tu producto o servicio",
+      "productTitleLengthCond": "El titulo debe tener 100 caracteres o menos",
+      "productTitlePlaceholder": "Ej: Desarrollo de sitio responsive",
+      "productAmount": "¿Cuánto querés que pague tu cliente?",
+      "comissionError": "¡Tené en cuenta la comisión en el valor final!",
+      "linkExpireTitle": "Agregar vencimiento al link",
+      "linkDuration": "Duración del link",
+      "noExpireError": "Seleccioná una fecha de vencimiento",
+      "editBtn": "GUARDAR",
+      "createBtn": "CREAR Y COMPARTIR",
+      "productMemo": "Dejá acá un comentario",
+      "productMemoPlaceholder": "Ej: Listado de tareas realizadas\n 1-Investigación\n 2-Desarrollo",
+      "productMemoError": "El memo puede tener máximo de 250 caracteres",
+      "fieldsRequired": "Campos Obligatorios",
+      "comissionMsg": {
+        "amountReceived": "Recibís {amount} USDC",
+        "amountPaid": "Pagás ${amount} de comisión"
+      },
+      "expireOptions": {
+        "option1": "1 Semana",
+        "option2": "2 Semanas",
+        "option3": "1 Mes"
+      }
+    }
+  },
+  "paymentLinkSuccess": {
+    "createdLinkCard": {
+      "titleAwesome": "¡Genial!",
+      "titleReady": "Ya estás listo para cobrar",
+      "copyLinkTitle": "COPIAR LINK",
+      "finalReceivedAmount": "Recibís {finalAmount} USDC",
+      "shareLinkTitle": "Compartí el link",
+      "copyLinkSuccess": "¡Link copiado!",
+      "copyLinkError": "Hubo algún error copiando el link"
+    }
+  },
+  "profile": {
+    "accountDataTitle": "DATOS DE TU CUENTA",
+    "personalDataTitle": "DATOS PERSONALES",
+    "accountDataCard": {
+      "profileImg": {
+        "uploadPictureBtn": "Cargar Foto",
+        "sizeFormatError": "La imagen debe ser de 2mb o menos, y ser formato jpg o png.",
+        "uploadError": "Hubo algún error al subir la imagen. Por favor, intentá de nuevo.",
+        "uploadSuccess": "¡Imagen subida con éxito!"
+      },
+      "userTitle": "Usuario",
+      "emailTitle": "Email",
+      "passwordTitle": "Contraseña",
+      "changePasswordBtn": "CAMBIAR",
+      "userFullNameTitle": "Nombre y apellido",
+      "dniTitle": "Documento",
+      "nationalityTitle": "Nacionalidad",
+      "phoneTitle": "Teléfono"
+    },
+    "supportTooltip": {
+      "changeDataHintTitle": "¿Necesitás cambiarlos?",
+      "changeDataHintBody": "En caso que necesites cambiar estos\ndatos, por favor, comunicate con {supportLink}\nasí podrán evaluar el caso.",
+      "supportLinkTitle": "soporte"
+    }
+  },
+  "home": {
+    "USDCtooltipTitle": "¿Qué son los USDC?",
+    "USDCtooltipBody": "USD Coin es una stablecoin que\nmantiene un precio estable vinculado\ncon el dólar estadounidense",
+    "balanceSummary": {
+      "title": "TU BALANCE",
+      "chargeBtn": "COBRAR",
+      "cashoutBtn": "RETIRAR"
+    },
+    "movementsSummary": {
+      "title": "ÚLTIMA ACTIVIDAD",
+      "listBtn": "VER TODOS",
+      "lastMovementsCard": {
+        "noResults": "No hay actividades para mostrar",
+        "cashoutTitle": "hacia manu"
+      }
+    }
+  },
+  "formRules": {
+    "required": "Este campo es requerido",
+    "positiveValue": "El valor debe ser mayor a 0"
+  },
+  "passwordRules": {
+    "title": "Debe contener:",
+    "uppercase": "Una mayúscula",
+    "number": "Un número",
+    "character": "Un carácter especial",
+    "length": "8 carácteres o más"
+  },
+  "register": {
+    "loginBtn": "Ingresar",
+    "createAccountTitle": "Crear Cuenta",
+    "registerError": "Hubo algún error al registrarse. Por favor, intentá de nuevo",
+    "registerForm": {
+      "emailTitle": "Email",
+      "passwordTitle": "Contraseña",
+      "rePasswordTitle": "Volvé a ingresar tu contraseña",
+      "acceptTermsText": "Soy mayor de 18 años y acepto los {termsLink}",
+      "acceptTermsLinkTitle": "términos y condiciones",
+      "acceptTermsError": "'Debe aceptar los términos y condiciones'",
+      "createAccountBtn": "CREAR CUENTA",
+      "passMatchError": "Las contraseñas no coinciden"
+    }
+  },
+  "completeRegister": {
+    "personalInfoForm": {
+      "title": "Datos Personales",
+      "subtitle": "Completá con tus datos personales",
+      "nameTitle": "Nombre/s",
+      "namePlaceholder": "Nombre/s",
+      "lastNameTitle": "Apellido/s",
+      "lastNamePlaceholder": "Apellido/s",
+      "nationalityTitle": "Nacionalidad",
+      "nationalityPlaceholder": "Elegí tu país",
+      "genderTitle": "Género",
+      "genderPlaceholder": "Elegí tu género",
+      "genderOptionF": "Femenino",
+      "genderOptionM": "Masculino",
+      "birthTitle": "Fecha de nacimiento",
+      "birthPlaceholder": "01/01/2021",
+      "nextBtn": "Siguiente",
+      "dniNegativeError": "El documento no puede ser un número negativo",
+      "requiredError": "Este campo es requerido",
+      "maxCharsError": "Debe contener menos de %s carácteres"
+    }
+  }
+}
