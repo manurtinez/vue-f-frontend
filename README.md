@@ -4,7 +4,7 @@ This is the frontend project for the Foxtrot product.
 
 It is a web app built using Nuxt.JS and VueJS, and using the Vuetify UI library.
 
-To run it, you need to have both Docker and Docker-compose installed. For instructions, refer to the [foxtrot-docker](https://github.com/manu/foxtrot-docker) README.
+To run it, you need to have both Docker and Docker-compose installed.
 
 # Setup
 
